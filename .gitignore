@@ -1,0 +1,15 @@
+# Ficheros de la historia
+.Rhistory
+
+# Código de ejemplo en proceso de construcción de paquete
+*-Ex.R
+
+# ficheros de datos de sesiones anteriores
+.Rdata
+
+# Ficheros del proyecto
+.Rproj.user
+*.Rproj
+
+# Directorio de los ficheros de Datos
+data/*
