@@ -42,13 +42,11 @@ dataSubset$Datetime <- as.POSIXct(datetime)
 
 # plot required
 
+png("plot1.png", width = 480, height = 480)
+
 hist(dataSubset$Global_active_power,
      main="Global Active Power", 
      xlab="Global Active Power (kilowatts)",
      ylab="Frequency", col="Red")
 
-
-# save to png file
-
-dev.copy(png, file="plot1.png", height=480, width=480)
 dev.off()

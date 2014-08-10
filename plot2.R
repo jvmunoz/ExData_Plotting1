@@ -42,13 +42,11 @@ dataSubset$Datetime <- as.POSIXct(datetime)
 
 # Plot required
 
+png("plot2.png", width = 480, height = 480)
+
 plot(dataSubset$Global_active_power~dataSubset$Datetime,
      type="l",
      xlab="",
      ylab="Global Active Power (kilowatts)")
 
-
-# save to png file
-
-dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()

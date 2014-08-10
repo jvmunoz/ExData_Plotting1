@@ -40,7 +40,9 @@ datetime <- paste(as.Date(dataSubset$Date), dataSubset$Time)
 dataSubset$Datetime <- as.POSIXct(datetime)
 
 
-# Plot required
+# Plot reqired
+
+png("plot4.png", width = 480, height = 480)
 
 par(mfrow=c(2,2), mar=c(4,4,2,1), oma=c(0,0,2,0))
 
@@ -82,7 +84,4 @@ with(dataSubset, {
 )
 
 
-# save to png file
-
-dev.copy(png, file="plot4.png", height=480, width=480)
 dev.off()
