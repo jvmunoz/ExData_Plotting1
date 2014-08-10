@@ -1,5 +1,6 @@
 # establish the working area
 
+Sys.setlocale("LC_TIME", "English")
 mainDir <- "C:/Users/JoseVicente/Desktop/Data Science/Johns Hopkins/Exploratory Data Analysis/Week1/ExData_Plotting1"
 subDir <- "data"
 
