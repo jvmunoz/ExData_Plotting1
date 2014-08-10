@@ -13,6 +13,3 @@
 
 # Directorio de los ficheros de Datos
 data/*
-
-# lo que hay que ignorar
-.gitignore
